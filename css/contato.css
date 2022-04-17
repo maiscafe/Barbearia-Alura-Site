@@ -49,8 +49,12 @@ form label, form p {
     width: 50%;
 }
 .checkbox {
-    margin-top: 20px;
+    margin-top: 20x;
     margin-bottom: 20px;
+}
+.horario {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 footer {
     padding: 40px 0;
