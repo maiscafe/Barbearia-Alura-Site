@@ -45,6 +45,8 @@ form label {
 form input {
     display: block;
     margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 footer {
     padding: 40px 0;
