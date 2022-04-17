@@ -1,3 +1,4 @@
+
 header {
     min-width: 940px;
     width: 100% auto;
@@ -29,34 +30,21 @@ nav a:hover {
     border-bottom: 2px solid #4a26eb;
     color: #4a26eb;
 }
-.produtos {
+main {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
 }
-.produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 5%;
+form {
+    margin: 40px 0;
 }
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px
 }
-.produto-descricao {
-    font-size: 18px;
-}
-.price-produto {
-    font-size: 22px;
-    font-weight: bold;
-    vertical-align: bottom;
-    margin-top: 10px;
+form input {
+    display: block;
+    margin-bottom: 20px;
 }
 footer {
     padding: 40px 0;
