@@ -3,32 +3,70 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Barbearia Alura</title>
+		
+		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	
 	</head>
 
 	<body>
-		<img id="banner" src="../img/index/banner.jpg">
-		<div class="principal">
-			<h1>Sobre a Barbearia Alura</h1>
-	 
-			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+		<header>
+			<div class="container">
+				<h1 class="logo"><img src="../img/produtos/logo.png" alt="Logo Barbearia Alura"></h1>
+				<nav>
+					<ul>
+						<li class="menu"><a href="../html/index.html">Home</a></li>
+						<li class="menu"><a href="../html/produtos.html">Produtos</a></li>
+						<li class="menu"><a href="../html/contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+			<img class="banner" src="../img/index/banner.jpg">
+		<main>
+			<section class="principal container">
+				<h1 class="titulo-principal">Sobre a Barbearia Alura</h1>
+				<img class="img-utensilios" src="../img/index/utensilios.jpg" alt="Utensilios de um barbeiro.">
+		
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+				<p class="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-		<div class="beneficios">
-			<h2>Benefícios</h2>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
 
-			<ul>
-				<li class="itens">Atendimento aos Clientes</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais Qualificados</li>
-			</ul>
+			<section class="mapa container">
+				<h3 class="titulo-principal">Nosso Estabelecimento</h3>
+				<p>Nosso estabelecimento esta localizado no coração da cidade.</p>
 
-			<img src="../img/index/beneficios.jpg" class="imagembeneficios">
-		</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4348.248963039447!2d-46.63396739332402!3d-23.589015677089385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1650397394505!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+
+			<section class="beneficios">
+				<h2 class="titulo-principal">Benefícios</h2>
+				<ul class="lista-beneficios" >
+					<li class="itens"> <strong>Atendimento aos Clientes</strong></li>
+					<li class="itens">Espaço diferenciado</li>
+					<li class="itens">Localização</li>
+					<li class="itens">Profissionais Qualificados</li>
+					<li class="itens">Pontualidade</li>
+					<li class="itens">Limpeza</li>
+				</ul>
+				<img src="../img/index/beneficios.jpg" class="img-beneficios">
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+			<footer>
+				<img src="../img/produtos/logo-branco.png" alt="Logo Barbearia Alura">
+				<p class="copyright"> &copy Copyright Barbearia Alura-2022</p>
+			</footer>
+		</main>
 	</body>
 </html>
