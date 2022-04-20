@@ -16,7 +16,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
-	clear: all;
+	margin: 0 auto;
 }
 nav li {
     display: inline;
@@ -41,7 +41,9 @@ nav a:hover {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em 0;
-	
+}
+.titulo-principal:first-letter {
+	font-weight: bold;
 }
 .principal {
 	width: 940px;
@@ -70,14 +72,18 @@ nav a:hover {
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
 }
-
-.mapa {
+.itens:before {
+	content: "★";
+}
+.mapa{
+	background: linear-gradient(#FEFEFE, #C2C2C2);
+}
+.mapa-api {
 	width: 940px;
     margin: 0 auto;
 	padding: 3em 0;
-	text-align: center;
 }
 .mapa p {
 	margin-bottom: 2em;
@@ -88,7 +94,7 @@ h2 {
 }
 
 .gradiente {
-	background: #888888;
+	background: #c2c2c2;
 }
 .conteudo-beneficios {
 	width: 640px;
@@ -98,12 +104,13 @@ h2 {
 	clear: left;
 }
 .lista-beneficios {
-	width: 35%;
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 20px;
 }
 .img-beneficios {
-	width: 60%;
+	width: 56%;
 }
 .itens{
 	line-height: 1.5em;
