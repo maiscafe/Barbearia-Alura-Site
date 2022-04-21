@@ -16,7 +16,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 nav li {
     display: inline;
@@ -42,12 +42,21 @@ nav a:hover {
     display: inline-block;
     text-align: center;
     width: 30%;
+    height: 420px;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 5%;
+    transition: 1s;
+    opacity: 0.8;
+    background: #ffffff;
+}
+.produtos li:hover {
+    transform: scale(1.1);
+    border: 2px solid #4a26eb;
+    opacity: 1;
 }
 .produtos h2 {
     font-size: 30px;
