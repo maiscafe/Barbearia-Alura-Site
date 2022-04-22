@@ -1,8 +1,15 @@
+ /*
+ ----------------
+ 
+ Sem responsividade
+
+ ----------------
+ 
+ */
 body {
 	font-family: 'Montserrat', sans-serif;
 }
 header {
-
     width: 100% auto;
     background: #bbbbbb;
     padding: 20px 0;
@@ -35,9 +42,7 @@ nav a:hover {
 }
 .banner {
 	width:100%;
-	
 }
-
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
@@ -57,9 +62,7 @@ nav a:hover {
 }
 .missao {
 	font-size: 20px;
-	
 }
-
 .principal strong {
 	font-weight: bold;
 }
@@ -71,7 +74,6 @@ nav a:hover {
 	float: left;
 	margin: 0 20px 0 20px;
 }
-
 .itens {
 	font-style: italic;
 }
@@ -135,6 +137,17 @@ footer {
     font-size: 14px;
     margin-top: 20px;
 }
+
+
+/*
+ ----------------
+ 
+ Com responsividade
+
+ ----------------
+ 
+ */
+
 
 @media screen and (max-width: 480px) {
 	.container, .beneficios, .mapa-api, .principal, .header, .responsive, .conteudo-beneficios, .video {

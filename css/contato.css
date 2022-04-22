@@ -1,9 +1,17 @@
+ /*
+ ----------------
+ 
+ Sem responsividade
+
+ ----------------
+ 
+ */
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
 header {
-    min-width: 940px;
-    width: 100% auto;
+    width: auto;
     background: #bbbbbb;
     padding: 20px 0;
 }
@@ -105,4 +113,40 @@ footer {
     color: #ffffff;
     font-size: 14px;
     margin-top: 20px;
+}
+
+/*
+ ----------------
+ 
+ Com responsividade
+
+ ----------------
+ 
+ */
+@media screen and (max-width: 750px) {
+    .container, .principal, .header, .formulario, main, .footer {
+		width: auto;
+	}
+    nav, .logo {
+        position: static;
+        text-align: center;
+    }
+    h1 {
+		text-align: center;
+        display: block;
+	}
+    .formulario {
+        width: 70%;
+        padding: 1em;
+    }
+    .enviar {
+        width: 70%;
+        padding: 15px 0;
+        margin: 2.5em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .container, .principal, .header, .formulario {
+		width: auto;
+	}
 }

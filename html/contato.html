@@ -22,11 +22,11 @@
                     <li class="menu"><a href="../html/contato.html">Contato</a></li>
                 </ul>
             </nav>
-        </div>
+        </div> <!-- container -->
     </header>
     
     <main>
-        <form action="">
+        <form class="formulario">
             <label for="nome-sobrenome">Nome e Sobrenome</label>
             <input type="text" placeholder="Nome e Sobrenome" id="nome-sobrenome" class="input-padrao" required>
             
@@ -50,7 +50,7 @@
                 <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
     
                 <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp"checked >Whatsapp</label>
-            </fieldset>
+            </fieldset> <!-- fieldset -->
 
             <fieldset class="horario">
                 <legend>Em qual horário prefere ser atendido?</legend>
@@ -59,13 +59,13 @@
                     <option value="">Tarde</option>
                     <option value="">Noite</option>
                 </select>
-            </fieldset>
+            </fieldset> <!-- fieldset horario -->
                 <label><input class="checkbox" type="checkbox" checked> Gostaria de receber as novidades por email?</label>
                 <input class="enviar" type="submit" value="Enviar Formulário">
 
-        </form>
+        </form> <!-- formulario -->
 
-        <table>
+        <table>  <!-- tabela -->
             <thead>
                 <tr>
                     <th>Dia</th>
@@ -86,12 +86,12 @@
                     <td>8h ~~ 20h</td>
                 </tr>
             </tbody>
-        </table>
+        </table> <!-- tabela -->
     </main>
 
-    <footer>
+    <footer> <!-- rodapé -->
         <img src="../img/produtos/logo-branco.png" alt="Logo Barbearia Alura">
         <p class="copyright"> &copy Copyright Barbearia Alura-2022</p>
-    </footer>
+    </footer> <!-- rodapé -->
 </body>
 </html>

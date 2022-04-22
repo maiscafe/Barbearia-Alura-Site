@@ -2,8 +2,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 header {
-    min-width: 940px;
-    width: 100% auto;
+    width: 100%;
     background: #bbbbbb;
     padding: 20px 0;
 }
@@ -53,7 +52,7 @@ nav a:hover {
     opacity: 0.8;
     background: #ffffff;
 }
-.produtos li:hover {
+.produtos li:hover  {
     transform: scale(1.1);
     border: 2px solid #4a26eb;
     opacity: 1;
@@ -81,4 +80,77 @@ footer {
     color: #ffffff;
     font-size: 14px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .container, .header, .prudutos li, .header, .footer, .produtos {
+        width: auto;
+    }
+    .main {
+        overflow: hidden;
+    }
+    .produtos li {
+        display: block;
+        margin : 10px auto;
+        text-align: center;
+        width: 80%;
+        height: 420px;
+        padding: 30px 20px;
+        border: 2px solid #000000;
+        border-radius: 5%;
+        transition: 1s;
+        opacity: 0.8;
+        background: #ffffff;
+    }
+    .produtos ul {
+        position: fixed;
+        display: block;
+    }
+    h1 {
+        display: block;
+    }
+    nav, .logo {
+        position: static;
+        text-align: center;
+    }
+    .produtos li:hover {
+        pointer-events: none;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .container, .header, .prudutos li, .header, .footer, .produtos {
+        width: auto;
+    }
+    .produtos li:hover  {
+        transform: scale(1);
+        border: 2px solid #000000;
+    }
+    .produtos li {
+        display: block;
+        margin : 10px auto;
+        text-align: center;
+        width: 80%;
+        height: 420px;
+        padding: 30px 20px;
+        border: 2px solid #000000;
+        border-radius: 5%;
+        transition: 1s;
+        opacity: 1;
+        background: #ffffff;
+    }
+    .produtos ul {
+        position: fixed;
+        display: block;
+    }
+}
+@media screen and (max-width: 400px) {
+    .produtos li {
+        height: 420px;
+        padding: 1em 1em;
+        align-content: center;
+    }
+    .price-produto {
+        margin-bottom: 15px;
+    }
 }
